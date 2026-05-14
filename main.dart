@@ -36,5 +36,6 @@ void main() {
   // e imprime o nome de cada aluno
   for (var aluno in listaAlunos) {
     print(aluno.nome);
+    print(aluno.telefone ?? 'Não possui telefone');
   }
 }
